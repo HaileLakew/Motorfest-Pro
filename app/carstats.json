@@ -1,0 +1,26 @@
+[
+  {
+    "name": "911 GT3 R",
+    "brand": "Porsche",
+    "country": "Germany",
+    "icon": "/porsche-logo.svg",
+    "stats": [
+      { "label": "Brake Balance", "value": "54%" },
+      { "label": "Brake Power", "value": "100%" },
+      { "label": "ARB Front", "value": "4" },
+      { "label": "ARB Rear", "value": "3" },
+      { "label": "Traction Control", "value": "Level 2" }
+    ]
+  },
+  {
+    "name": "M4 GT3",
+    "brand": "BMW",
+    "country": "Germany",
+    "icon": "/bmw-logo.svg",
+    "stats": [
+      { "label": "Brake Balance", "value": "52%" },
+      { "label": "Differential Preload", "value": "60Nm" },
+      { "label": "Rear Wing", "value": "Position 6" }
+    ]
+  }
+]

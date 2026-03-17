@@ -1,0 +1,13 @@
+name: JSON Check
+on:
+  push:
+    paths:
+      - 'public/data/cars.json'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check JSON Syntax
+        run: jq . public/data/cars.json
